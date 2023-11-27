@@ -24,6 +24,7 @@ vars(bucket)
 my_bucket = storage_client.get_bucket(bucket_name)
 
 
+
 #CARGAR ARCHIVOS A UN BUCKET
 def upload_to_bucket(blob_name, file_path, bucket_name):
     try:
